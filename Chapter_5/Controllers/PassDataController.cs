@@ -21,6 +21,14 @@ namespace Chapter_5.Controllers
             ViewData.Model = petList;
             return View();
         }
+
+        public IActionResult PassTempData()
+        {
+            TempData["ErrorMessage"] = "無足夠權限";
+            TempData["UserName"] = "David";
+            TempData["Time"] = DateTime.Now.ToLongTimeString();
+            return RedirectToAction("ErrorMessage", "ErrorHandler");
+        }
         public IActionResult PassViewData()
         {
             ViewData["Name"] = "Kenvin";

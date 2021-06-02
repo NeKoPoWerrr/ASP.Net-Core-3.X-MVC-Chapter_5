@@ -1,0 +1,12 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h2>訊息摘要</h2>
+
+<ul>
+    使用者 : @TempData["UserName"];
+    時間 : @TempData["Time"];
+    訊息 : @TempData["ErrorMessage"];
+</ul>訊息 : @TempData.Peek("Message");
