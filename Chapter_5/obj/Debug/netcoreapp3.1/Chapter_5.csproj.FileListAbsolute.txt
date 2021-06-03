@@ -156,3 +156,4 @@ E:\program\C sharp\Chapter_5\Chapter_5\obj\Debug\netcoreapp3.1\Razor\Views\Frien
 E:\program\C sharp\Chapter_5\Chapter_5\obj\Debug\netcoreapp3.1\Razor\Views\Friends\Details.cshtml.g.cs
 E:\program\C sharp\Chapter_5\Chapter_5\obj\Debug\netcoreapp3.1\Razor\Views\Friends\Edit.cshtml.g.cs
 E:\program\C sharp\Chapter_5\Chapter_5\obj\Debug\netcoreapp3.1\Razor\Views\Friends\Index.cshtml.g.cs
+E:\program\C sharp\Chapter_5\Chapter_5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutFriend.cshtml.g.cs
